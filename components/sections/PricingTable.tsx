@@ -118,7 +118,7 @@ export function PricingTable() {
                 </ul>
                 <div className="mt-8">
                   <Button
-                    variant={tier.name === 'Basic' ? 'outline' : 'default'}
+                    variant={tier.name === 'Basic' ? 'ghost' : 'default'}
                     className="w-full"
                     asChild
                   >

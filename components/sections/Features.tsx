@@ -39,23 +39,23 @@ export function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Everything you need to create
+            Your content, safely backed up
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Powerful features to take your content to the next level
+            Everything you need to keep your content secure and accessible
           </p>
         </div>
 
         <div className="mt-20 grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature) => (
-            <div key={feature.name} className="group relative">
-              <div className="flex items-center space-x-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gray-100 group-hover:bg-gray-200">
-                  <feature.icon className="h-6 w-6 text-gray-600" />
-                </div>
-                <h3 className="text-lg font-medium text-gray-900">{feature.name}</h3>
+            <div key={feature.name} className="relative flex flex-col items-center p-6">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-500 text-white">
+                <feature.icon className="h-6 w-6" />
               </div>
-              <p className="mt-2 text-gray-500 pl-16">
+              <h3 className="mt-4 text-lg font-semibold text-gray-900">
+                {feature.name}
+              </h3>
+              <p className="mt-2 text-center text-gray-600">
                 {feature.description}
               </p>
             </div>

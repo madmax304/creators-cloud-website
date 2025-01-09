@@ -1,5 +1,11 @@
 import Link from 'next/link'
 
+const DiscordIcon = ({ className }: { className?: string }) => (
+  <svg viewBox="0 -28.5 256 256" className={className} fill="currentColor">
+    <path d="M216.856 16.597A208.502 208.502 0 0 0 164.042 0c-2.275 4.113-4.933 9.645-6.766 14.046-19.692-2.961-39.203-2.961-58.533 0-1.832-4.4-4.55-9.933-6.846-14.046a207.809 207.809 0 0 0-52.855 16.638C5.618 67.147-3.443 116.4 1.087 164.956c22.169 16.555 43.653 26.612 64.775 33.193A161.094 161.094 0 0 0 79.735 175.3a136.413 136.413 0 0 1-21.846-10.632 108.636 108.636 0 0 0 5.356-4.237c42.122 19.702 87.89 19.702 129.51 0a131.66 131.66 0 0 0 5.355 4.237 136.07 136.07 0 0 1-21.886 10.653c4.006 8.02 8.638 15.67 13.873 22.848 21.142-6.58 42.646-16.637 64.815-33.213 5.316-56.288-9.08-105.09-38.056-148.36Z"/>
+  </svg>
+)
+
 const navigation = {
   product: [
     { name: 'Features', href: '#features' },
@@ -15,11 +21,7 @@ const navigation = {
     {
       name: 'Discord',
       href: 'https://discord.gg/creators-cloud',
-      icon: () => (
-        <svg viewBox="0 -28.5 256 256" className="h-6 w-6" fill="currentColor">
-          <path d="M216.856 16.597A208.502 208.502 0 0 0 164.042 0c-2.275 4.113-4.933 9.645-6.766 14.046-19.692-2.961-39.203-2.961-58.533 0-1.832-4.4-4.55-9.933-6.846-14.046a207.809 207.809 0 0 0-52.855 16.638C5.618 67.147-3.443 116.4 1.087 164.956c22.169 16.555 43.653 26.612 64.775 33.193A161.094 161.094 0 0 0 79.735 175.3a136.413 136.413 0 0 1-21.846-10.632 108.636 108.636 0 0 0 5.356-4.237c42.122 19.702 87.89 19.702 129.51 0a131.66 131.66 0 0 0 5.355 4.237 136.07 136.07 0 0 1-21.886 10.653c4.006 8.02 8.638 15.67 13.873 22.848 21.142-6.58 42.646-16.637 64.815-33.213 5.316-56.288-9.08-105.09-38.056-148.36Z"/>
-        </svg>
-      ),
+      Icon: DiscordIcon
     },
   ],
 }
@@ -34,10 +36,10 @@ export function Footer() {
         <div className="xl:grid xl:grid-cols-2 xl:gap-8">
           <div className="space-y-8">
             <Link href="/" className="text-2xl font-bold">
-              Creators Cloud
+              Creator&apos;s Cloud
             </Link>
             <p className="text-gray-500 text-base">
-              Making content creation easier and more accessible for everyone.
+              Secure backup for your social media content.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
@@ -47,7 +49,7 @@ export function Footer() {
                   className="text-gray-400 hover:text-gray-500"
                 >
                   <span className="sr-only">{item.name}</span>
-                  <item.icon className="h-6 w-6" />
+                  <item.Icon className="h-6 w-6" />
                 </a>
               ))}
             </div>

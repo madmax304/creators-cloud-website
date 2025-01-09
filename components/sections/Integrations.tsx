@@ -35,7 +35,7 @@ const integrations = [
   },
   {
     name: 'More Platforms',
-    icon: Plus,
+    Icon: Plus,
     status: 'coming-soon',
     description: 'We\'re continuously adding support for more platforms. Have a request? Let us know!'
   }
@@ -74,8 +74,8 @@ export function Integrations() {
                     fill
                     className="object-contain"
                   />
-                ) : (
-                  <integration.icon className="h-12 w-12 text-gray-400" />
+                ) : integration.Icon && (
+                  <integration.Icon className="h-12 w-12 text-gray-400" />
                 )}
               </div>
               
