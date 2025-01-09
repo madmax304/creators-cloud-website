@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button'
 import { CTA } from '@/components/sections/CTA'
 import { Features } from '@/components/sections/Features'
 import { Hero } from '@/components/sections/Hero'
