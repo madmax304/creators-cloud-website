@@ -10,7 +10,7 @@ export function CTA() {
             Protect your content today
           </h2>
           <p className="mt-4 text-lg text-gray-300">
-            Don't wait until it's too late. Start backing up your valuable content now.
+            Don&apos;t wait until it&apos;s too late. Start backing up your valuable content now.
           </p>
           <div className="mt-8 flex justify-center gap-4">
             <Button size="lg" className="bg-white text-gray-900 hover:bg-gray-100" asChild>

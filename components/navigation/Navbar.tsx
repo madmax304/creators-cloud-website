@@ -10,7 +10,7 @@ export function Navbar() {
         <div className="flex justify-between h-14 items-center">
           <div className="flex-shrink-0">
             <Link href="/" className="font-bold text-xl">
-              Creator's Cloud
+              Creator&apos;s Cloud
             </Link>
           </div>
           

@@ -1,13 +1,4 @@
-import { 
-  Paintbrush, 
-  Cloud, 
-  Share2, 
-  BarChart, 
-  Shield, 
-  Zap, 
-  Clock, 
-  Wallet 
-} from 'lucide-react'
+import { Cloud, Shield, Share2, Clock, Wallet, Zap } from 'lucide-react'
 
 const features = [
   {
