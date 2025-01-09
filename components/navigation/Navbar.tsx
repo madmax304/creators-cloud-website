@@ -9,43 +9,49 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-14 items-center">
           <div className="flex-shrink-0">
-            <Link href="/" className="font-bold text-xl hover:text-indigo-600 transition-colors">
+            <Link href="/" className="font-bold text-xl">
               Creator&apos;s Cloud
             </Link>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            {[
-              ['Features', '#features'],
-              ['Integrations', '#integrations'],
-              ['Pricing', '#pricing'],
-              ['FAQs', '#faq']
-            ].map(([name, href]) => (
-              <Link
-                key={name}
-                href={href}
-                className="text-sm font-medium text-gray-700 hover:text-indigo-600 relative group transition-colors"
-              >
-                {name}
-                <span className="absolute inset-x-0 bottom-[-17px] h-0.5 bg-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform" />
-              </Link>
-            ))}
+            <Link
+              href="#features"
+              className="text-sm font-medium text-gray-700 hover:text-gray-900"
+            >
+              Features
+            </Link>
+            <Link
+              href="#integrations"
+              className="text-sm font-medium text-gray-700 hover:text-gray-900"
+            >
+              Integrations
+            </Link>
+            <Link
+              href="#pricing"
+              className="text-sm font-medium text-gray-700 hover:text-gray-900"
+            >
+              Pricing
+            </Link>
+            <Link
+              href="#faq"
+              className="text-sm font-medium text-gray-700 hover:text-gray-900"
+            >
+              FAQ
+            </Link>
           </div>
 
           <div className="flex items-center gap-4">
             <Link
-              href="https://app.creators-cloud.com/login"
-              className="text-sm font-medium text-gray-700 hover:text-indigo-600 transition-colors"
+              href="https://app.thecreatorscloud.com/log-in"
+              className="text-sm font-medium text-gray-700 hover:text-gray-900"
             >
               Log In
             </Link>
             
-            <Button 
-              asChild
-              className="hover:bg-indigo-700 transition-colors"
-            >
-              <Link href="https://app.creators-cloud.com/signup">
-                Sign Up
+            <Button asChild>
+              <Link href="https://app.thecreatorscloud.com/sign-up">
+                Sign Up Free
               </Link>
             </Button>
           </div>

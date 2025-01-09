@@ -122,10 +122,13 @@ export function PricingTable() {
                     className="w-full"
                     asChild
                   >
-                    <Link href="https://app.creators-cloud.com/signup">
-                      {tier.name === 'Basic' ? 'Start Free' : 'Get Started'}
+                    <Link href="https://app.thecreatorscloud.com/sign-up">
+                      {tier.name === 'Basic' ? 'Start Free' : 'Sign Up Free'}
                     </Link>
                   </Button>
+                  <p className="mt-2 text-sm text-gray-500 text-center">
+                    No credit card required
+                  </p>
                 </div>
               </div>
             </div>
