@@ -33,7 +33,7 @@ export function CookieConsent() {
           </p>
           <div className="flex gap-4">
             <Button 
-              variant="outline" 
+              variant="ghost" 
               size="sm" 
               onClick={() => setIsVisible(false)}
             >

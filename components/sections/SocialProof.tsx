@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import { motion, useInView, useMotionValue, useSpring } from 'framer-motion'
+import { useInView, useMotionValue, useSpring } from 'framer-motion'
 
 function Counter({ value }: { value: number }) {
   const ref = useRef<HTMLSpanElement>(null)
