@@ -11,8 +11,6 @@ const tiers = [
     features: [
       '1GB secure storage',
       'Automatic backup',
-      'Basic recovery tools',
-      '30-day backup history'
     ],
   },
   {
@@ -24,9 +22,7 @@ const tiers = [
     features: [
       '100GB secure storage',
       'Automatic backup',
-      'Priority recovery support',
-      'Unlimited backup history',
-      'Advanced encryption'
+      'Email support',
     ],
     banner: 'Most Popular'
   },
@@ -39,10 +35,7 @@ const tiers = [
     features: [
       '1TB secure storage',
       'Automatic backup',
-      'Priority recovery support',
-      'Unlimited backup history',
-      'Advanced encryption',
-      'API access'
+      'Priority recovery support'
     ],
     banner: 'Best Value'
   }

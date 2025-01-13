@@ -1,0 +1,21 @@
+{
+  "name": "Creator's Cloud",
+  "short_name": "Creator's Cloud",
+  "description": "Secure backup for your social media content",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+} 

@@ -12,16 +12,8 @@ export function Hero() {
               <span className="block text-indigo-600">Securely Backed Up</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              Automatically backup content from your favorite social media platforms. Never lose a post, video, or draft again.
+              Automatically backup content from your favorite social media platforms. Never lose a post again.
             </p>
-            <div className="mt-4 flex items-center justify-center space-x-2">
-              <span className="inline-flex items-center px-3 py-1 text-sm font-medium text-indigo-600 bg-indigo-100 rounded-full">
-                Free to sign up
-              </span>
-              <span className="inline-flex items-center px-3 py-1 text-sm font-medium text-indigo-600 bg-indigo-100 rounded-full">
-                No credit card required
-              </span>
-            </div>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="flex flex-col items-center">
                 <Button size="lg" asChild>
@@ -29,6 +21,9 @@ export function Hero() {
                     Sign Up Free
                   </Link>
                 </Button>
+                <p className="mt-2 text-sm text-gray-500">
+                  No credit card required
+                </p>
               </div>
             </div>
           </div>

@@ -3,12 +3,12 @@ import { Cloud, Shield, Share2, Clock, Wallet, Zap } from 'lucide-react'
 const features = [
   {
     name: 'Automatic Backup',
-    description: 'Set it and forget it. We automatically backup new content as you post it.',
+    description: 'Set it and forget it. We automatically backup new media.',
     icon: Cloud
   },
   {
     name: 'Secure Storage',
-    description: 'Bank-level encryption keeps your content safe and private.',
+    description: 'Bank-level encryption keeps your content safe, private, and accessible.',
     icon: Shield
   },
   {
@@ -27,8 +27,8 @@ const features = [
     icon: Wallet
   },
   {
-    name: 'Quick Recovery',
-    description: 'Instantly restore any lost content with just one click.',
+    name: 'Quick Setup',
+    description: 'Enter a username and we will take care of the rest.',
     icon: Zap
   }
 ]

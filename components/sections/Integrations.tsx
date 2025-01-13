@@ -7,37 +7,37 @@ const integrations = [
     name: 'TikTok',
     logo: '/tiktok-logo.svg',
     status: 'live',
-    description: 'Automatically backup all your TikTok videos and drafts'
+    description: 'Automatically backup all your TikToks'
   },
   {
     name: 'Instagram',
     logo: '/instagram-logo.svg',
     status: 'coming-soon',
-    description: 'Secure storage for your posts, stories, and reels'
+    description: 'Secure storage for your Reels'
   },
   {
     name: 'YouTube',
     logo: '/youtube-logo.svg',
     status: 'coming-soon',
-    description: 'Backup your uploaded videos and drafts'
+    description: 'Backup your videos and Shorts'
   },
   {
     name: 'X (Twitter)',
     logo: '/x-logo.svg',
     status: 'coming-soon',
-    description: 'Archive your media tweets and scheduled content'
+    description: 'Archive your Tweets and more'
   },
   {
     name: 'Facebook',
     logo: '/facebook-logo.svg',
     status: 'coming-soon',
-    description: 'Backup photos, videos, and page content'
+    description: 'Backup photos, videos, and more'
   },
   {
     name: 'More Platforms',
     Icon: Plus,
     status: 'coming-soon',
-    description: 'We\'re continuously adding support for more platforms. Have a request? Let us know!'
+    description: 'Have a request? Let us know!'
   }
 ]
 
