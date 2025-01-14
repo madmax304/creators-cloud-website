@@ -85,6 +85,25 @@ export default function PrivacyPage() {
         <p className="text-sm text-gray-500 mt-8">
           This Privacy Policy is compliant with TikTok, Facebook, and YouTube guidelines as of the Effective Date. For more information about these guidelines, please refer to their respective privacy policies.
         </p>
+
+        <h2>Third-Party Platform Integration</h2>
+        <p>
+          Our service integrates with various third-party platforms to provide content backup services. Please note:
+        </p>
+        <ul className="list-disc pl-8 mb-4">
+          <li>Our ability to access and backup content depends on the continued availability and cooperation of these platforms</li>
+          <li>Changes in platform policies, regulations, or operational status may affect our service capabilities</li>
+          <li>We may need to modify or discontinue certain features based on platform requirements or restrictions</li>
+        </ul>
+        <p>
+          While we strive to maintain consistent service across all integrated platforms, we cannot guarantee permanent access to any specific platform or its features. Service availability may be affected by factors beyond our control, including:
+        </p>
+        <ul className="list-disc pl-8 mb-4">
+          <li>Changes in platform APIs or access policies</li>
+          <li>Regulatory requirements or restrictions</li>
+          <li>Regional access limitations</li>
+          <li>Platform ownership or operational changes</li>
+        </ul>
       </div>
     </div>
   )

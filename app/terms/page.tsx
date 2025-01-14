@@ -80,6 +80,74 @@ export default function TermsPage() {
           For more information about these guidelines, please refer to their respective terms of service.
           This Terms of Service has been developed and is maintained in accordance with all applicable federal and international laws and regulations.
         </p>
+
+        <h2>Service Availability and Platform Integration</h2>
+        <p>
+          Our service integrates with various third-party platforms and social media services. We do not guarantee:
+        </p>
+        <ul className="list-disc pl-8 mb-4">
+          <li>Continuous availability of any third-party platform integration</li>
+          <li>Uninterrupted access to content from integrated platforms</li>
+          <li>Permanent availability of any specific platform or its features</li>
+        </ul>
+        <p>
+          Changes in laws, regulations, platform policies, or the operational status of integrated platforms may affect our ability to provide certain services. We are not liable for any service interruptions or limitations resulting from:
+        </p>
+        <ul className="list-disc pl-8 mb-4">
+          <li>Changes in platform policies or terms of service</li>
+          <li>Government regulations or restrictions</li>
+          <li>Platform discontinuation or modification</li>
+          <li>Changes in platform ownership or operation</li>
+          <li>Regional or global access restrictions</li>
+        </ul>
+
+        <h2>Limitation of Liability</h2>
+        <p>
+          You acknowledge and agree that we shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages resulting from:
+        </p>
+        <ul className="list-disc pl-8 mb-4">
+          <li>Changes in the availability or functionality of integrated platforms</li>
+          <li>Loss of access to content due to platform restrictions or changes</li>
+          <li>Regulatory changes affecting platform integrations</li>
+          <li>Service modifications required by law or platform policies</li>
+        </ul>
+
+        <h2>Refund Policy</h2>
+        <p>
+          By using our service, you acknowledge and agree to the following refund policy:
+        </p>
+        <ul className="list-disc pl-8 mb-4">
+          <li>All purchases are final and non-refundable upon successful payment processing</li>
+          <li>Subscription fees are charged in advance and are non-refundable, including in cases of:
+            <ul className="list-disc pl-8 mt-2">
+              <li>Partial use of services</li>
+              <li>Early cancellation of subscription</li>
+              <li>Changes in platform availability</li>
+              <li>Changes in service features</li>
+              <li>Non-usage of service</li>
+            </ul>
+          </li>
+          <li>No prorated refunds will be issued for unused portions of subscription periods</li>
+          <li>Cancellation of service will take effect at the end of the current billing cycle</li>
+          <li>Any promotional or trial periods, once converted to paid subscriptions, follow the same non-refundable policy</li>
+        </ul>
+
+        <p className="mb-4">
+          Exceptions to this policy may be considered solely at Creator&apos;s Cloud&apos;s discretion in cases of:
+        </p>
+        <ul className="list-disc pl-8 mb-4">
+          <li>Documented technical issues preventing service access for more than 72 consecutive hours</li>
+          <li>Erroneous duplicate charges</li>
+          <li>Legal requirements in your jurisdiction</li>
+        </ul>
+
+        <p className="mb-4">
+          Any approved refunds will be processed to the original payment method used for the purchase. Processing of approved refunds may take up to 30 business days.
+        </p>
+
+        <p className="font-semibold mb-4">
+          By subscribing to our service, you explicitly agree to waive any right to a refund beyond the terms stated above.
+        </p>
       </div>
     </div>
   )

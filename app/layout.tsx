@@ -1,16 +1,10 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import { Navbar } from "@/components/navigation/Navbar";
-import { Footer } from "@/components/navigation/Footer";
-import { CookieConsent } from '@/components/CookieConsent'
+import '@/app/globals.css'
+import GoogleTagManager from '@/components/analytics/GoogleTagManager'
+import { Navbar } from '@/components/navigation/Navbar'
+import { Footer } from '@/components/navigation/Footer'
+import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "Creator's Cloud - Social Media Content Backup",
-  description: "Secure backup for your social media content",
-};
+const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({
   children,
@@ -20,11 +14,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
+        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID!} />
         <Navbar />
         {children}
         <Footer />
-        <CookieConsent />
       </body>
     </html>
-  );
+  )
 }

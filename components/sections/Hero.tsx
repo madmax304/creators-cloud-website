@@ -1,10 +1,14 @@
+'use client'
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { useTrackOutbound } from '@/hooks/useTrackOutbound'
 
 export function Hero() {
+  const trackOutboundClick = useTrackOutbound();
+
   return (
     <div className="relative overflow-hidden">
-      <div className="relative pt-6 pb-16 sm:pb-24">
+      <div className="relative pt-16 pb-16 sm:pb-24">
         <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
           <div className="text-center">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
@@ -16,7 +20,15 @@ export function Hero() {
             </p>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="flex flex-col items-center">
-                <Button size="lg" asChild>
+                <Button 
+                  size="lg" 
+                  asChild 
+                  onClick={(e) => {
+                    const target = e.currentTarget as HTMLAnchorElement;
+                    console.log('Button clicked', target.href);
+                    trackOutboundClick('hero');
+                  }}
+                >
                   <Link href="https://app.thecreatorscloud.com/sign-up">
                     Sign Up Free
                   </Link>
