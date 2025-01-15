@@ -43,7 +43,7 @@ export function Navbar() {
 
           <div className="flex items-center gap-4">
             <Link
-              href="https://app.thecreatorscloud.com/log-in"
+              href="https://app.thecreatorscloud.com/login"
               className="text-sm font-medium text-gray-700 hover:text-gray-900"
             >
               Log In
